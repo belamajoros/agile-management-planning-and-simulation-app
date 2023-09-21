@@ -1,0 +1,5 @@
+# package directiries
+node_modules
+
+# Node
+package-lock.json

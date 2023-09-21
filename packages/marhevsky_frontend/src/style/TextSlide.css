@@ -1,0 +1,25 @@
+.cont {
+    /* width: 200px; */
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+
+.slidingText {
+    display: inline-block;
+    white-space: nowrap;
+    transition: transform 0.3s;
+ }
+
+ .cont:hover .slidingText {
+    animation: slideEffect 5s linear infinite;
+}
+
+@keyframes slideEffect {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
